@@ -1,13 +1,20 @@
 /* Global Style */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    text-align: left;
 }
 
 
@@ -27,7 +34,7 @@ html {
 
 .fas {
     color: gray;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .logo-sm {
@@ -55,7 +62,7 @@ html {
 }
 
 
-/* Section Two */
+/* Section Two - Mission */
 
 .mission-statement-container {
     position: relative;
@@ -71,17 +78,91 @@ html {
 .mission-statement {
     color: white;
     padding: 20px 100px;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 760px) {
     .mission-statement-container {
         height: auto;
+        width: 100%;
     }
 
     .mission-statement {
         padding: 20px 20px;
     }
 
+}
+
+/* Section 3 - Offerings */
+
+.offerings-container {
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.offering h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.offering p {
+    text-align: center;
+}
+
+.offering img {
+    opacity: 50%;
+    max-width: 100px;
+}
+
+.offering {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Section 4 - Splash Image */
+
+.splash-container {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../resources/images/splashimage.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: 200px;
+    display: flex;
+    color: white;
+    background: rgb(253,134,133);
+    background: linear-gradient(311deg, rgba(253,134,133,1) 0%, rgba(228,73,125,1) 100%);
+    width: 100%;
+    height: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 100px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
