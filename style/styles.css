@@ -57,8 +57,9 @@ p {
 }
 
 .banner-image {
-    height: 400px;
-    width: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 
@@ -91,13 +92,11 @@ p {
     .mission-statement {
         padding: 20px 20px;
     }
-}
 
-@media only screen and (max-width: 410px) {
     .banner-image {
-        height: 300px;
-        width: auto;
+        padding: 20px 20px;
     }
+
 }
 
 /* Section 3 - Offerings */
