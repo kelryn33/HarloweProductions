@@ -92,6 +92,11 @@ p {
         padding: 20px 20px;
     }
 
+    .banner-image {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 }
 
 /* Section 3 - Offerings */
@@ -130,6 +135,7 @@ p {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 /* Section 4 - Splash Image */
@@ -146,6 +152,11 @@ p {
     background-size: cover;
 }
 
+@media only screen and (max-width: 760px) {
+    .splash-container {
+        background-attachment: scroll;
+    }
+}
 
 
 /* Footer */
