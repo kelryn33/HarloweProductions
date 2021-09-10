@@ -17,6 +17,10 @@ p {
     text-align: left;
 }
 
+:root {
+    scrollbar-color: transparent transparent;
+  }
+
 
 /* Header and Navigation Styles */
 
