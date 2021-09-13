@@ -175,8 +175,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 40px;
-    padding-right: 40px;
+    
 }
 
 .member {
@@ -185,6 +184,11 @@ p {
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 30px;
+    width: 300px;
+}
+
+.member p, h3, h2 {
+    text-align: center;
 }
 
 .team-container img {
