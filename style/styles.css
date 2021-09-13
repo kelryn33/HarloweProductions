@@ -159,11 +159,41 @@ p {
 }
 
 
+/*Section 5 - Team*/
+
+.team-header {
+    display: block;
+    position: relative;
+    top: 230px;
+    text-align: center;
+}
+
+.team-container {
+    position: relative;
+    top: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.team-container img {
+    padding-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
     position: relative;
-    top: 200px;
+    top: 300px;
     display: flex;
     color: white;
     background: rgb(253,134,133);
